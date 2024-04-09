@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:layout_margin="20dp"
+     android:orientation="vertical"
+     android:id="@+id/coordinator">
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textAlignment="center"
+         android:id="@+id/Author"
+         android:text="Author" />
+
+    <ImageView
+         android:layout_height="200dp"
+         android:layout_width="match_parent"
+         android:id="@+id/image_view" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textAlignment="center"
+         android:id="@+id/title"
+         android:text="title" />
+
+</LinearLayout>
